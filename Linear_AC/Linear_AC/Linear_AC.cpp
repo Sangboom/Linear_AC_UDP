@@ -86,8 +86,13 @@ int main(void)
             exit(0);
         }
         
-        int bf = atoi(Buffer); // atoi 함수 양수는 제대로 안됨
+        // int bf = atoi(Buffer); // atoi 함수 양수는 제대로 안됨
 
+        if (abs(bf - atoi(Buffer)) > 1) {
+            bf = atoi(Buffer);
+        }
+        else continue;
+        
         Acc_Ptr.move_actu(bf, 700, 200);        // linear 제어
         //cout << "패킷수신됨! 패킷을 보낸 클라이언트는 " << inet_ntoa(FromClient.sin_addr) << endl;
         //cout << "패킷의 데이터는 " << Buffer << endl;
