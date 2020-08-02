@@ -86,7 +86,7 @@ int main(void)
             exit(0);
         }
         
-        // int bf = atoi(Buffer); // atoi 함수 양수는 제대로 안됨
+        // int bf = atoi(Buffer); // char 배열을 int 형으로 변형해주는 함수
 
         if (abs(bf - atoi(Buffer)) > 1) {
             bf = atoi(Buffer);
