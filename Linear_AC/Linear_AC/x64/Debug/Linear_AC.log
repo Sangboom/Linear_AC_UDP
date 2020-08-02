@@ -1,0 +1,4 @@
+﻿  Linear_AC.cpp
+C:\Users\admin\Desktop\Linear_AC\Linear_AC\Linear_AC.cpp(48,34): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\admin\Desktop\Linear_AC\Linear_AC\Linear_AC.cpp(30,9): warning C4101: 'Count' :참조되지 않은 지역 변수입니다.
+  Linear_AC.vcxproj -> C:\Users\admin\Desktop\Linear_AC\x64\Debug\Linear_AC.exe
